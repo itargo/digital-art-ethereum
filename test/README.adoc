@@ -1,3 +1,0 @@
-= 용어
-* contract creator: transaction creation을 발생시킨 address. Ownable의 owner와 동일한 개념으로 contract를 배포한 계정을 일컫는다.
-* owner: 개별 토큰의 owner. 
