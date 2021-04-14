@@ -6,7 +6,11 @@
 ```bash
 $ yarn install
 ```   
-* Environment setting
+* Path setting
+```bash
+$ export PATH="$(yarn bin):$PATH"
+```
+* Environment variables setting
 ```bash
 $ cp sample.env .env
 ```
