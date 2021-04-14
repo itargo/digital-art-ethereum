@@ -39,6 +39,7 @@ contract ItargoNFT is Initializable, ERC721URIStorageUpgradeable, OwnableUpgrade
         __ERC165_init_unchained();
         __ERC721_init_unchained(name_, symbol_);
         __ERC721URIStorage_init_unchained();
+        __Ownable_init_unchained();
         __ItargoNFT_init_unchained(name_, symbol_);
     }
 
